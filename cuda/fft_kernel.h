@@ -24,4 +24,8 @@
 template <typename FieldT>
 void best_fft(std::vector<FieldT> &a, const FieldT &omg);
 
+template <typename FieldT>
+void mixed_fft(std::vector<FieldT> &a, const FieldT &omg);
+
+
 #endif
